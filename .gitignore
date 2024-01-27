@@ -1,0 +1,45 @@
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos de configuração específicos para o Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Pacotes NuGet
+*.nuget/
+packages/
+
+# Arquivos de configuração do NUnit
+*.VisualState.xml
+
+# Logs e relatórios de testes
+TestResults/
+
+# Arquivos de compilação e configuração do Xamarin
+*.apk
+*.aab
+*.keystore
+*.p12
+*.dmg
+*.app
+
+# Configurações locais do usuário para Rider
+.idea/
+
+# Configurações do usuário para Visual Studio
+.vs/
+
+# Configurações de build do Xamarin
+xaml.*
+*.xaml.*
+*.xaml.cs
+
+# Logs
+*.log
+
+# Dependências e diretórios do Node.js
+node_modules/

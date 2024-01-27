@@ -1,0 +1,24 @@
+Roteiro de Automação Mobile
+
+Passo 1: Criar conta no SaceLabs : https://app.saucelabs.com/
+Passo 2: Upload do App alvo dos Testes  
+    2.1: No saucelabs clicar em App Management
+    2.2 Caso não esteja com a versão recente do APK baixar no git https://github.com/saucelabs/my-demo-app-android/releases
+    2.3 Caso baixou a versão atualizada do APK, fazer o upload desse arquivo para o saucelabs
+Passo 3: Baixar a versão 2.4.3 do APK info ( Ferramenta de inspeção) https://apkpure.net/br/apk-info/com.wt.apkinfo/download/2.4.3
+      3.1 Fazer o upload do arquivo APK Info  para o saucelabs 
+
+Passo 4: No SauceLabs dentro Aba Live =>Mobile App escolher na opção Mobile Virtual o Aparelho Sansung, Modelo Galaxy S9 FHD GoogleAPI Emulator => Versão Android 9.0
+Passo 5: Clicar no botão Start
+    passo 5.1: Mapear os elementos e exportar
+Passo 6: Instalar e utilizar o Appium Inspector para mapear os elementos
+Passo 7: Exportar ou usar os seletores descobertos
+passo 8: Importar ou usar os seletores descobertos
+Passo 9 : inicializar o projeto =>  dotnet new nunit
+Passo 10: Instalar Appium webdriver => dotnet add package Appium.Webdriver --version 4.2.1
+Passo 11: Instalando a ultima versão do selenium versão 3, compativel com o Appium => dotnet add package Selenium.Webdriver --version 3.141.01
+Passo 12: Criar um arquivo .cs 
+Passo 13: Declarar as variaveis de ambiente $env:SAUCE_USERNAME = {'valor username' pego do saucelabs'}
+passo 14: Declara as variaveis de ambiente  $env:SAUCE_ACCESS_KEY = {'valor SAUCE_ACCESS_KEY' pego do saucelabs}  
+
+
