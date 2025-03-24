@@ -31,4 +31,4 @@ dotnet test
 
 
 ## Contribuições
-ontribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests para melhorar este projeto.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests para melhorar este projeto.
